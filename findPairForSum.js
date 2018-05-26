@@ -20,5 +20,5 @@ function findPairForSum(integers, target) {
   };
   return result;
 };
-console.log (findPairForSum([3, 1, 12, 5], 13));
-console.log(findPairForSum([3, 34, 4, 12, 5, 2], 9));
+console.log(findPairForSum([3, 1, 12, 5], 13)); // [1, 12]
+console.log(findPairForSum([3, 34, 4, 12, 5, 2], 9)); // [4, 5]
