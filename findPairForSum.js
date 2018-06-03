@@ -189,3 +189,8 @@ else if (shirtWidth >= 28 && shirtLength >= 34 && shirtSleeve >= 10.13){
 else {
  console.log("N/A")
 }
+
+
+var isGoing = true;
+var color = isGoing ? "green" : "red";
+console.log(color);
